@@ -7,12 +7,12 @@
     "supportIds": ["SUP-03A280C26868"],
     "patch": {
       "updateRequired": true,
-      "minSupportedVersionCode": 33,
-      "latestVersionName": "1.0.5",
-      "updateUrl": "https://github.com/HandrylVieira01/taxi-vieiraprorj-updates/releases/download/v1.0.5/app-release.apk",
+      "minSupportedVersionCode": 34,
+      "latestVersionName": "1.0.6",
+      "updateUrl": "https://github.com/HandrylVieira01/taxi-vieiraprorj-updates/releases/download/v1.0.6/app-release.apk",
       "updateTitle": "Atualizacao obrigatoria",
-      "updateMessage": "Foi liberada uma nova versao com correcao importante. Toque abaixo para baixar e instalar.",
-      "configVersion": "2026-04-12-02",
+      "updateMessage": "Foi liberada uma nova versao com correcao importante. O app vai baixar e instalar automaticamente.",
+      "configVersion": "2026-04-12-03",
       "rolloutLabel": "force_update_sup_03a280c26868"
     }
   }
