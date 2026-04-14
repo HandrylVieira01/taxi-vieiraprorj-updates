@@ -1,10 +1,31 @@
 [
   {
+    "id": "force_update_sup_7e851d3188d0",
+    "name": "Forca atualizacao remota para SUP-7E851D3188D0",
+    "priority": 1,
+    "enabled": true,
+    "supportIds": [
+      "SUP-7E851D3188D0"
+    ],
+    "patch": {
+      "updateRequired": true,
+      "minSupportedVersionCode": 40,
+      "latestVersionName": "1.0.12",
+      "updateUrl": "https://xwaguarjzrcotihqzkyr.supabase.co/storage/v1/object/public/public-updates/releases/v1.0.12/app-release.apk",
+      "updateTitle": "Atualizacao obrigatoria",
+      "updateMessage": "Liberamos uma correcao para o painel da corrida e para a instalacao automatica. Toque em Atualizar agora para baixar e instalar.",
+      "configVersion": "2026-04-14-06",
+      "rolloutLabel": "force_update_sup_7e851d3188d0"
+    }
+  },
+  {
     "id": "force_update_sup_03a280c26868",
     "name": "Forca atualizacao remota para SUP-03A280C26868",
     "priority": 5,
     "enabled": true,
-    "supportIds": ["SUP-03A280C26868"],
+    "supportIds": [
+      "SUP-03A280C26868"
+    ],
     "patch": {
       "updateRequired": true,
       "minSupportedVersionCode": 34,
