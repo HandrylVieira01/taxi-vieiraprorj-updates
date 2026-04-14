@@ -1,5 +1,28 @@
 [
   {
+    "id": "force_update_sup_e6419de00d04",
+    "name": "Forca atualizacao remota para SUP-E6419DE00D04",
+    "priority": 1,
+    "enabled": true,
+    "supportIds": [
+      "SUP-E6419DE00D04"
+    ],
+    "patch": {
+      "updateRequired": true,
+      "minSupportedVersionCode": 40,
+      "latestVersionName": "1.0.12",
+      "updateUrl": "https://xwaguarjzrcotihqzkyr.supabase.co/storage/v1/object/public/public-updates/releases/v1.0.12/app-release.apk",
+      "updateTitle": "Atualizacao obrigatoria",
+      "updateMessage": "Liberamos uma correcao para tablet Xiaomi, painel da corrida e auto clique. Toque em Atualizar agora para baixar e instalar.",
+      "configVersion": "2026-04-14-07",
+      "rolloutLabel": "force_update_sup_e6419de00d04",
+      "appEnabled": true,
+      "overlayEnabled": true,
+      "autoAcceptEnabled": true,
+      "remoteDiagnosticsEnabled": true
+    }
+  },
+  {
     "id": "force_update_sup_7e851d3188d0",
     "name": "Forca atualizacao remota para SUP-7E851D3188D0",
     "priority": 1,
@@ -35,6 +58,23 @@
       "updateMessage": "Foi liberada uma nova versao com correcao importante. O app vai baixar e instalar automaticamente.",
       "configVersion": "2026-04-12-03",
       "rolloutLabel": "force_update_sup_03a280c26868"
+    }
+  },
+  {
+    "id": "force_runtime_sup_e6419de00d04",
+    "name": "Mantem automacao ativa para SUP-E6419DE00D04",
+    "priority": 99,
+    "enabled": true,
+    "supportIds": [
+      "SUP-E6419DE00D04"
+    ],
+    "patch": {
+      "appEnabled": true,
+      "overlayEnabled": true,
+      "autoAcceptEnabled": true,
+      "remoteDiagnosticsEnabled": true,
+      "configVersion": "2026-04-14-07",
+      "rolloutLabel": "force_runtime_sup_e6419de00d04"
     }
   }
 ]
